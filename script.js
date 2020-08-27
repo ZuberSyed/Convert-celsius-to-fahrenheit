@@ -4,7 +4,7 @@ function celsiusToFahrenheit(){
     if(x == ""){
        wordDisplay = "Please enter a number";
     }else{
-        wordDisplay = "Fahrenheit = " + x*(9/5)+32;
+        wordDisplay =  x*(9/5)+32;
     }
     document.getElementById('answer').innerHTML = wordDisplay;
 }
